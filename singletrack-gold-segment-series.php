@@ -22,7 +22,7 @@ function register_singletrack_gold_widget() {
 
 // Initialise settings when plugin is activated
 function singletrack_gold_activate() {
-	add_option( 'singletrack_gold_num_activities', 20 );
+	add_option( 'singletrack_gold_num_activities', 200 );
 	add_option( 'singletrack_gold_timezone', 'Pacific/Auckland' );
 }
 
